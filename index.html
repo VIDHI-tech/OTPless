@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="heading">WELCOME TO OTPless</h1>
+    <div id="otpless-login-page">
+    <script type="text/javascript" src="https://otpless.com/auth.js">
+    function otpless(otplessUser) {
+        console.log(JSON.stringify(otplessUser));
+        console.log(otplessUser)
+          console.log("Name:", otplessUser.email.name)
+          console.log("Email:", otplessUser.email.email)
+          console.log("Mobile:", otplessUser.mobile.number)
+    }
+    </script>
+</body>
+</html>

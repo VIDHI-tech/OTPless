@@ -1,0 +1,14 @@
+body{
+    background-color:brown;
+}
+
+#otpless-login-page{
+    border: 2px solid rgb(101, 5, 5);
+}
+
+#heading{
+    color: bisque;
+    text-align: center;
+    margin: 3rem auto 2rem;
+    font-size: 3rem;
+}
